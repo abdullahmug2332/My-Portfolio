@@ -1,0 +1,35 @@
+/* General styles for all image containers */
+.image-container {
+    position: relative;
+  }
+  
+  .projimg {
+    width: 100%;
+    transition: filter 1s ease; /* Smooth transition for blur effect */
+  }
+  
+  .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    z-index: 100;
+    display: none;
+    transition: display 1s ease; /* Smooth fade-in effect */
+  }
+  
+  /* Hover effect for all containers (tourazacon, fronticcon, digixcon) */
+  .image-container:hover .projimg {
+    filter: blur(1.5px);
+  }
+  
+  .image-container:hover .logo {
+    display: block;
+  }
+  
+  /* Additional hover effect to blur projimg when hovering over logo */
+  .image-container:hover .logo:hover ~ .projimg {
+    filter: blur(1px);
+  }
+  

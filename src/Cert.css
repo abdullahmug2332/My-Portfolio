@@ -1,0 +1,36 @@
+.cert1{
+    position: relative;
+    left: 0;
+    transform:rotate(70deg) ;
+    transform-origin: center;
+    transition: all 1s ease-in-out;
+    opacity: 0;
+}
+.cert1.entered {
+    left: 0;
+    transform:rotate(0deg) ;
+    opacity: 1;
+}
+.cert1.exited {
+    left: -150%;
+    transform: rotate(70deg);
+    opacity: 0;
+}
+.cert2{
+    position: relative;
+    right: 0;
+    transform:rotate(70deg) ;
+    transform-origin: center;
+    transition: all 1s ease-in-out;
+    opacity: 0;
+}
+.cert2.entered {
+    right: 0;
+    transform:rotate(0deg) ;
+    opacity: 1;
+}
+.cert2.exited {
+    right: -150%;
+    transform: rotate(70deg);
+    opacity: 0;
+}

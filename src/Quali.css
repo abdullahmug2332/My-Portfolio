@@ -1,0 +1,68 @@
+
+.card{
+    background-color: #3289fc30 !important;
+    transition: transform 0.3s ease-in;
+    margin-bottom: 35px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px;
+}
+.fa-graduation-cap,.GCU{
+    color: azure;
+}
+.div2{
+    width: 100%;
+}
+.card:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.crd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.introimg{
+    width: 26vw;
+    border-radius: 22% 78% 21% 79% / 76% 26% 74% 24% ;
+    position: relative;
+    left: 0;
+    transform:rotate(70deg) ;
+    transform-origin: center;
+    transition: all 1s ease-in-out
+}
+.card1{
+    position: relative;
+    left: 0;
+    transform:rotate(70deg) ;
+    transform-origin: center;
+    transition: all 1s ease-in-out;
+    opacity: 0;
+}
+.card1.entered {
+    left: 0;
+    transform:rotate(0deg) ;
+    opacity: 1;
+}
+.card1.exited {
+    left: -150%;
+    transform: rotate(70deg);
+    opacity: 0;
+}
+.card2{
+    position: relative;
+    right: 0;
+    transform:rotate(70deg) ;
+    transform-origin: center;
+    transition: all 1s ease-in-out;
+    opacity: 0;
+}
+.card2.entered {
+    right: 0;
+    transform:rotate(0deg) ;
+    opacity: 1;
+}
+.card2.exited {
+    right: -150%;
+    transform: rotate(70deg);
+    opacity: 0;
+}

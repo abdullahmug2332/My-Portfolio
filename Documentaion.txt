@@ -1,0 +1,14 @@
+#9E3FFD
+#121232
+
+font-family: "Montserrat", sans-serif;
+
+
+1. name and photo >>>
+2. short intro >>>
+3. technologies >>>
+4. projects >>>
+5. cerfifications >>>
+6. qualifications >>>
+7. contact 
+8.social links

@@ -1,0 +1,137 @@
+.title2 {
+    color: #3289fc;
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.divtech{
+    backdrop-filter: blur(5px);
+    background-color: #3289fc30 ;
+    border-radius: 20px ;
+    margin-left: 10px;
+    margin-right: 10px;
+    transform: rotateX(10deg);
+    transform-origin: bottom;
+    transition: transform 1s ease;
+}
+.divtech.exited{
+    transform: rotateY(90deg) rotateX(10deg);
+}
+.divtech.enter{
+    transform: rotateX(10deg);
+}
+
+.techicons {
+    font-size: 120px;
+    margin-top: 40px;
+    margin-top: 40px;
+}
+
+.fa-html5 {
+    color: #E96228;
+    background-color: white;
+}
+
+.icons {
+    width: 70%;
+    transition: all 1s  ;
+}
+.icons:hover{
+    transform: scale(1.1) rotate(10deg);
+    cursor: pointer;
+}
+
+.elementor {
+    margin-top: 10px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.js {
+    margin-top: 10px;
+    width: 50%;
+    border-radius: 10px;
+}
+.bootstrap{
+    width:70% ;
+}
+/* Extra large devices (large desktops) */
+@media only screen and (min-width: 1200px) {
+    .title2 {
+        font-size: 55px;
+    } 
+}
+  
+/* Large devices (desktops) */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .title2 {
+        font-size: 50px;
+    } 
+}
+  
+/* Medium devices (desktops) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .title2 {
+        font-size: 45px;
+    } 
+}
+/* Small devices (tablets) */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .title2 {
+        font-size: 40px;
+    } 
+    .icons {
+        width: 90%;
+    }
+    .htmlicon,.cssicon{
+        width: 120%;
+    }
+    .js{
+        width: 90%;
+    }
+    .htmlicon{
+        position: relative;
+        right: 10px;
+    }
+    .elementor{
+        position: relative;
+        left: 10px;
+    }
+    .bootstrap{
+        width:140% ;
+        position: relative;
+        bottom: 20px;
+        right: 10px;
+    }
+}
+    
+/* Extra small devices (phones) */
+@media only screen and (max-width: 575.98px) {
+    .title2 {
+        font-size: 35px;
+    } 
+    .icons {
+        width: 90%;
+    }
+    .htmlicon,.cssicon{
+        width: 120%;
+    }
+    .js{
+        width: 90%;
+    }
+    .htmlicon{
+        position: relative;
+        right: 15px;
+    }
+    .elementor{
+        position: relative;
+        left: 10px;
+    }
+    .bootstrap{
+        width:140% ;
+        position: relative;
+        bottom: 20px;
+        right: 10px;
+    }
+}

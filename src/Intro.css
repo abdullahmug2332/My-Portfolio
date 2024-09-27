@@ -1,0 +1,144 @@
+
+.intro{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.title{
+    color:#3289fc ;
+    font-size: 45px;
+}
+.introduction{
+    font-size:25px;
+    font-weight: 300;
+    word-spacing: 8px;
+}
+.introimg{
+    width: 26vw;
+    border-radius: 22% 78% 21% 79% / 76% 26% 74% 24% ;
+    position: relative;
+    left: 0;
+    transform:rotate(90deg) ;
+    transform-origin: center;
+    transition: all 1s ease-in-out
+}
+.introimg.entered {
+    left: 0;
+    transform:rotate(0deg) ;
+
+}
+.introimg.exited {
+    left: -150%;
+    transform: rotate(90deg);
+
+}
+.box {
+    backdrop-filter: blur(5px);
+    background-color: #3289fc30 ;
+    padding: 25px;
+    border-radius: 15px;
+    position: relative;
+    right: -150%;
+    transition: right 0.7s ease-in-out; /* Add smooth transition */
+}
+
+/* Classes to control the animation */
+.box.entered {
+    right: 0%;
+}
+
+.box.exited {
+    right: -150%;
+}
+/* Extra large devices (large desktops) */
+@media only screen and (min-width: 1200px) {
+    .title{
+        font-size: 45px;
+    }
+    .introduction{
+        font-size:25px;
+        word-spacing: 8px;
+    }
+    
+}
+  
+/* Large devices (desktops) */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .title{
+        font-size: 40px;
+    }
+    .introduction{
+        font-size:24px;
+        word-spacing: 8px;
+    }
+    .introimg{
+        margin-top: 50px;
+    }
+    .intro{
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+}
+  
+/* Medium devices (desktops) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .title{
+        font-size: 35px;
+    }
+    .introduction{
+        font-size:22px;
+        word-spacing: 8px;
+    }
+    .introimg{
+        margin-top: 50px;
+    }
+    .intro{
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+}
+/* Small devices (tablets) */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .title{
+        font-size: 35px;
+        text-align: center;
+
+    }
+    .introduction{
+        font-size:21px;
+        word-spacing: 8px;
+        text-align: center;
+
+    }
+    .introimg{
+        display: none;
+    }
+    .intro{
+        padding-top: 0px;
+        padding-bottom: 100px;
+    }
+}
+    
+/* Extra small devices (phones) */
+@media only screen and (max-width: 575.98px) {
+    .title{
+        font-size: 30px;
+        text-align: center;
+
+    }
+    .introduction{
+        font-size:20px;
+        word-spacing: 8px;
+        text-align: center;
+    }
+    .introimg{
+        display: none;
+    }
+    .intro{
+        padding-top: 0px;
+        padding-bottom: 100px;
+    }
+}
+  
