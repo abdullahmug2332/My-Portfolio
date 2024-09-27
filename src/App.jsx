@@ -6,6 +6,27 @@ import './Project.css'
 import './Cert.css'
 import './Contact.css'
 
+// Images
+import heroimg from "../public/DP.jpg"
+import intro from "../public/img3.jpg"
+import gcu from "../public/gcu3.jpg"
+import school from "../public/school.jpg"
+import html from "../public/icons/html.png"
+import css from "../public/icons/css.png"
+import js from "../public/icons/js.png"
+import bootstrap from "../public/icons/bootstrap.png"
+import react from "../public/icons/react.png"
+import elementor from "../public/icons/elementor.png"
+import touraza from "../public/Turaza.png"
+import tourazalogo from "../public/tourazalogo.png"
+import frontic from "../public/Frontic.png"
+import fronticlogo from "../public/fronticlogo.png"
+import digix from "../public/Digix.png"
+import digixlogo from "../public/digixlogo.png"
+import ks from "../public/knowledgestreams.jpeg"
+import nexskill from "../public/nexskill.png"
+
+
 import { useState } from 'react';
 import Contact from './Contact'
 
@@ -101,7 +122,7 @@ function App() {
         <div className="container my-auto mt-5">
           <div className="row mt-xl-5 mt-2">
             <div className="col-md-5 order-md-last d-md-block d-flex justify-content-center">
-              <img src="./DP.jpg" className='DP ' alt="" />
+              <img src={heroimg} className='DP ' alt="" />
               <i className="fas fa-code"></i>
             </div>
             <div className="col-md-7 p-2 mt-xl-5 mt-2 text-md-start text-center">
@@ -119,7 +140,7 @@ function App() {
         <div className="container">
           <div className="row">
             <div className="col-md-4">
-              <img className={`introimg ${imgpos}`} src="./img3.jpg" />
+              <img className={`introimg ${imgpos}`} src={intro} />
             </div>
             <div className="col-md-8">
               <div className={`box ${value}`}>
@@ -138,7 +159,7 @@ function App() {
               <div className="crd col-md-6">
                 <div className={`card card1 ${qual1}`} style={{ width: "95%" }}>
                   <div className='div2'>
-                    <img className="card-img-top img-fluid" src="../gcu3.jpg" alt="Card image cap" />
+                    <img className="card-img-top img-fluid" src={gcu} alt="Card image cap" />
                   </div>
                   <div className="card-body">
                     <h4 className="degree">Intermediate in Commerce</h4>
@@ -155,7 +176,7 @@ function App() {
               <div className="crd col-md-6">
                 <div className={`card card2 ${qual2}`} style={{ width: "95%" }}>
                   <div className='div2'>
-                    <img className="card-img-top img-fluid" src="../school.jpg" alt="Card image cap" />
+                    <img className="card-img-top img-fluid" src={school} alt="Card image cap" />
                   </div>
                   <div className="card-body">
                     <h4 className="degree">Matriculation in Computer</h4>
@@ -179,22 +200,22 @@ function App() {
             <h2 className='title2'>Technologies</h2>
             <div className={`row divtech ${tech} p-5 `}>
               <div className="col-lg-4 col-6 text-center mb-5">
-                <a target="_blank" href="https://en.wikipedia.org/wiki/HTML"><img className='icons htmlicon' src="../icons/html.png" /></a>
+                <a target="_blank" href="https://en.wikipedia.org/wiki/HTML"><img className='icons htmlicon' src={html} /></a>
               </div>
               <div className="col-lg-4 col-6 text-center mb-5">
-                <a target="_blank" href="https://en.wikipedia.org/wiki/CSS"><img className='icons cssicon' src="../icons/css.png" /></a>
+                <a target="_blank" href="https://en.wikipedia.org/wiki/CSS"><img className='icons cssicon' src={css} /></a>
               </div>
               <div className="col-lg-4 col-6 text-center mb-5">
-                <a target="_blank" href="https://en.wikipedia.org/wiki/JavaScript"><img className='icons js' src="../icons/js.png" /></a>
+                <a target="_blank" href="https://en.wikipedia.org/wiki/JavaScript"><img className='icons js' src={js} /></a>
               </div>
               <div className="col-lg-4 col-6 text-center mb-5">
-                <a target="_blank" href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)"><img className='icons bootstrap' src="../icons/bootstrap.png" /></a>
+                <a target="_blank" href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)"><img className='icons bootstrap' src={bootstrap} /></a>
               </div>
               <div className="col-lg-4 col-6 text-center mb-5">
-                <a target="_blank" href="https://en.wikipedia.org/wiki/React_(JavaScript_library)"><img className='icons' src="../icons/react.png" /></a>
+                <a target="_blank" href="https://en.wikipedia.org/wiki/React_(JavaScript_library)"><img className='icons' src={react}/></a>
               </div>
               <div className="col-lg-4 col-6 text-center mb-5">
-                <a target="_blank" href="https://en.wikipedia.org/wiki/Elementor"><img className='icons elementor' src="../icons/elementor.png" /></a>
+                <a target="_blank" href="https://en.wikipedia.org/wiki/Elementor"><img className='icons elementor' src={elementor} /></a>
               </div>
             </div>
           </div>
@@ -206,22 +227,22 @@ function App() {
           <div className="row mx-3">
             <div className="tourazacon image-container col-md-4 mb-4">
               <a target="_blank" href="https://touraza-react.vercel.app/" style={{ position: 'relative' }}>
-                <img className="projimg" src="../Turaza.png" alt="" />
-                <img className="logo" src="../tourazalogo.png" alt="Touraza Logo" />
+                <img className="projimg" src={touraza} alt="" />
+                <img className="logo" src={tourazalogo} alt="Touraza Logo" />
               </a>
             </div>
 
             <div className="fronticcon image-container col-md-4 mb-3">
               <a target="_blank" href="https://frontic-hotel.vercel.app/" style={{ position: 'relative' }}>
-                <img className="projimg" src="../Frontic.png" alt="" />
-                <img className="logo" src="../fronticlogo.png" alt="Frontic Logo" />
+                <img className="projimg" src={frontic} alt="" />
+                <img className="logo" src={fronticlogo} alt="Frontic Logo" />
               </a>
             </div>
 
             <div className="digixcon image-container col-md-4 mb-3">
               <a target="_blank" href="https://digix-react.vercel.app/" style={{ position: 'relative' }}>
-                <img className="projimg" src="../Digix.png" alt="" />
-                <img className="logo" src="../digixlogo.png" alt="Digix Logo" />
+                <img className="projimg" src={digix} alt="" />
+                <img className="logo" src={digixlogo} alt="Digix Logo" />
               </a>
             </div>
           </div>
@@ -235,7 +256,7 @@ function App() {
               <div className="crd col-md-6">
                 <div className={`card cert1 ${cert1}`} style={{ width: "85%" }}>
                   <div className='div2'>
-                    <img className="card-img-top img-fluid" src="../knowledgestreams.jpeg" alt="Card image cap" />
+                    <img className="card-img-top img-fluid" src={ks} alt="Card image cap" />
                   </div>
                   <div className="card-body">
                     <h4 className="degree">Introduction to Programming</h4>
@@ -252,7 +273,7 @@ function App() {
               <div className="crd col-md-6">
                 <div className={`card cert2 ${cert2}`} style={{ width: "85%" }}>
                   <div className='div2'>
-                    <img className="card-img-top img-fluid" src="../nexskill.png" alt="Card image cap" />
+                    <img className="card-img-top img-fluid" src={nexskill} alt="Card image cap" />
                   </div>
                   <div className="card-body">
                     <h4 className="degree">MERN Stack Development</h4>

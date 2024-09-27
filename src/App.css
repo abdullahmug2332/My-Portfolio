@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, p {
 body{
   overflow-x: hidden;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-  url('./bg4.jpg');  
+  url('../public/bg4.jpg');  
   background-size: cover; 
   background-position: center; 
   background-attachment: fixed;
