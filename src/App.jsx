@@ -117,7 +117,7 @@ function App() {
   });
 
   return (
-    <>
+    <div className='portfolio'>
       <div className="hero w-100 overflow-hidden pt-5 ">
         <div className="container my-auto mt-5">
           <div className="row mt-xl-5 mt-2">
@@ -292,7 +292,7 @@ function App() {
         </div>
       </div>
       <Contact />
-    </>
+    </div>
   )
 }
 
