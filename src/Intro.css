@@ -11,9 +11,10 @@
     font-size: 45px;
 }
 .introduction{
-    font-size:25px;
+    font-size:24px;
     font-weight: 300;
     word-spacing: 8px;
+    text-align: left !important;
 }
 .introimg{
     width: 26vw;
@@ -109,7 +110,7 @@
     .introduction{
         font-size:21px;
         word-spacing: 8px;
-        text-align: center;
+        text-align: left;
 
     }
     .introimg{
@@ -130,7 +131,7 @@
     }
     .introduction{
         font-size:20px;
-        word-spacing: 8px;
+        word-spacing: 2px;
         text-align: center;
     }
     .introimg{

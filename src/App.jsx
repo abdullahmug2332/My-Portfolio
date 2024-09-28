@@ -145,7 +145,7 @@ function App() {
             <div className="col-md-8">
               <div className={`box ${value}`}>
                 <h1 className='title'>Introduction</h1>
-                <h4 className="introduction">My name is Abdullah Sajjad, a 20-year-old Front-End Web Developer based in Lahore, Pakistan. I specialize in creating visually compelling and user-friendly websites using a range of technologies, including HTML, CSS, JavaScript, Bootstrap, React, and WordPress Elementor. I am dedicated to delivering work that is both detail-oriented and up-to-date with the latest web design trends. Collaboration is one of my core strengths, and I thrive in team environments where we can build engaging and seamless web experiences together. I am always seeking new opportunities to apply my skills and expand my knowledge in this dynamic field.</h4>
+                <h4 className="introduction">My name is Abdullah Sajjad, a 20 years old Frontend Web Developer based in Lahore, Pakistan. I specialize in creating visually compelling and user-friendly websites using a range of technologies, including HTML, CSS, JavaScript, Bootstrap, React, and WordPress Elementor. I am dedicated to delivering work that is both detail-oriented and up-to-date with the latest web design trends. Collaboration is one of my core strengths, and I thrive in team environments where we can build engaging and seamless web experiences together. I am always seeking new opportunities to apply my skills and expand my knowledge in this dynamic field.</h4>
               </div>
             </div>
           </div>
