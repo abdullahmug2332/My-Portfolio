@@ -272,7 +272,7 @@ body {
   top: 69px;
   right: 69px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   body::before {
     content: '';
     position: fixed;
