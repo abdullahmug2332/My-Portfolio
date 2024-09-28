@@ -272,3 +272,19 @@ body {
   top: 69px;
   right: 69px;
 }
+@media (max-width: 768px) {
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('../public/bg4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1; /* Ensures it stays behind the content */
+  }
+}
