@@ -32,6 +32,10 @@ p {
 /* hero */
 /* hero */
 /* hero */
+.portfolio{
+  width: 100vw;
+  overflow-x: hidden;
+}
 body {
   overflow-x: hidden;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -40,7 +44,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  width: 100vw;
+  width: 100%;
 }
 
 .hero {
