@@ -40,14 +40,14 @@ const Contact = () => {
     <div className="contact py-5">
       <div className="container">
         <div className="row">
-          <div className="col-md-5 mb-5">
+          <div className="col-md-5 text-center text-sm-start mb-5">
             <h2 className='git mt-4'>Get in touch</h2>
             <p className="loc">Lahore, Pakistan</p>
-            <div className="d-flex flex-column">
+            <div className="d-flex  flex-column">
               <a className="mb-1 text-light text-decoration-none" href="tel:+923254412292">+92-325-4412292</a>
               <a className="mb-1 text-light text-decoration-none" href="mailto:eabdullahmug2332@gmail.com">abdullahmug2332@gmail.com</a>
             </div>
-            <div className="col-md-5 col-6 pt-3 d-flex justify-content-between ">
+            <div className="col-md-9 col-xl-7 col-7 pt-3 d-flex mx-auto mx-sm-0 justify-content-between ">
                 <a href="https://www.linkedin.com/in/abdullah-sajjad-8881b9289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                   target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
                     id="linkedinn" fill="currentColor" className="bi bi-linkedin mainicons linkedinn "
@@ -80,7 +80,7 @@ const Contact = () => {
 
               </div>
           </div>
-          <div className="col-md-7 text-center">
+          <div className="col-11 col-md-7 mx-auto mx-sm-0  text-center">
             <form ref={form} onSubmit={handleSubmit}>
               <input
                 type="text"
@@ -95,7 +95,7 @@ const Contact = () => {
 
               <input
                 type="email"
-                className='w-100 p-2'
+                className='w-100 p-sm-2'
                 id="email"
                 name="email"
                 value={formData.email}
@@ -106,7 +106,7 @@ const Contact = () => {
 
               <textarea
                 id="message"
-                className='w-100 p-2'
+                className='w-100 p-sm-2'
                 name="message"
                 rows="5"
                 value={formData.message}
@@ -115,7 +115,7 @@ const Contact = () => {
                 required
               ></textarea><br /><br />
 
-              <input type="submit" className='w-100 p-3 formbtn' value="Send Message" />
+              <input type="submit" className='w-100 p-sm-3 formbtn' value="Send Message" />
             </form>
           </div>
         </div>
