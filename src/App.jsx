@@ -227,27 +227,27 @@ function App() {
         <div className="container">
           <h2 className='title2'>Projects</h2>
           <div className="row mx-3">
-            <div className="tourazacon image-container col-sm-6 col-xl-4 mb-4">
+            <div className="tourazacon image-container col-md-6 col-xl-4 mb-4">
               <a target="_blank" href="https://touraza-react.vercel.app/" style={{ position: 'relative' }}>
                 <img className="projimg" src={touraza} alt="" />
                 <img className="logo" src={tourazalogo} alt="Touraza Logo" />
               </a>
             </div>
 
-            <div className="fronticcon image-container col-sm-6 col-xl-4 mb-3">
+            <div className="fronticcon image-container col-md-6 col-xl-4 mb-3">
               <a target="_blank" href="https://frontic-hotel.vercel.app/" style={{ position: 'relative' }}>
                 <img className="projimg" src={frontic} alt="" />
                 <img className="logo" src={fronticlogo} alt="Frontic Logo" />
               </a>
             </div>
 
-            <div className="digixcon image-container col-sm-6 col-xl-4 mb-3">
+            <div className="digixcon image-container col-md-6 col-xl-4 mb-3">
               <a target="_blank" href="https://digix-react.vercel.app/" style={{ position: 'relative' }}>
                 <img className="projimg" src={digix} alt="" />
                 <img className="logo" src={digixlogo} alt="Digix Logo" />
               </a>
             </div>
-            <div className="digixcon image-container col-sm-6 col-xl-4 mb-3">
+            <div className="digixcon image-container col-md-6 col-xl-4 mb-3">
               <a target="_blank" href="https://netflix-clone-livid-three.vercel.app/" style={{ position: 'relative' }}>
                 <img className="projimg" src={netflix} alt="" />
                 <img className="logo netflix-logo" src={netflixlogo} alt="Digix Logo" />
