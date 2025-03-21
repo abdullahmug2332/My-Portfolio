@@ -19,6 +19,9 @@
     transition: display 1s ease; /* Smooth fade-in effect */
   }
   
+  .netflix-logo{
+    width: 60%;
+  }
   /* Hover effect for all containers (tourazacon, fronticcon, digixcon) */
   .image-container:hover .projimg {
     filter: blur(1.5px);
